@@ -12,7 +12,7 @@ Obj.Sub=function(valueX){
 }
 Obj.Mul=function(valueX){
 	for (var i = 1; i <= 12; i++){
-		console.log(i*valueX);
+		console.log(" "+valueX+" x"+" "+i+" = "+i*valueX);
 	}
 }
 exports.Table=Obj;
